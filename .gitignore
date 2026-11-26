@@ -1,0 +1,24 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.local
+
+# Java / Maven
+**/target/
+**/.mvn/wrapper/maven-wrapper.jar
+*.class
+
+# JavaScript
+**/node_modules/
+**/dist/
+**/dist-ssr/
+*.log
+
+# IDE and operating-system files
+**/.idea/
+**/.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+
